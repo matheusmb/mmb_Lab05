@@ -1,0 +1,53 @@
+Quartus II Archive log --	C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/mmb_Lab05.qarlog
+
+Archive:	C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/mmb_Lab05.qar
+Date:		Thu May 08 18:00:55 2014
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/NonPipelined.qsf
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/Resources/dataMemory.mif
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/Resources/programMemory.mif
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/Resources/uMemory.mif
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/assignment_defaults.qdf
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/db/NonPipelined.db_info
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/incremental_db/compiled_partitions/NonPipelined.db_info
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/mmb_Lab05.qpf
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/com_counters.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/com_entity.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/com_muxes.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/controlUnit.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/cu_rom.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/dcs.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/decoder1to3.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/fu_alu.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/functionalUnit.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/functionalUnit_tb.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/iop_tb.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/iop_unit.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/memUnit_tb.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/mem_unit.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/mmb_sum2inp.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/ram.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/registerFile.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/registerFile_tb.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/rom.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/stackPointer.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/uProcessor.vhd
+C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/vhdl_files/uProcessor_tb.vhd
+	======= Total: 30 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Tue May 13 01:34:45 2014
+Source archive file:	C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/mmb_Lab05.qar
+Archive was extracted into	C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab11/
+		 - successfully.
+
+
+******* Archived project restoration attempt on Tue May 13 18:30:49 2014
+Source archive file:	C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab05/mmb_Lab05.qar
+Archive was extracted into	C:/Users/Matheus/SkyDrive/RIT/Spring/Design_of_Computer_Systems/Labs/mmb_Lab11/
+		 - successfully.

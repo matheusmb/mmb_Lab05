@@ -1,0 +1,462 @@
+-- Memory File
+
+WIDTH = 14;
+DEPTH = 16383;
+
+ADDRESS_RADIX = HEX;
+DATA_RADIX = HEX;
+
+CONTENT BEGIN
+0000 	 : 	20c2; 	 --Array Value
+0001 	 : 	30e2; 	 --Array Value
+0002 	 : 	1839; 	 --Array Value
+0003 	 : 	162d; 	 --Array Value
+0004 	 : 	2245; 	 --Array Value
+0005 	 : 	3265; 	 --Array Value
+0006 	 : 	18b2; 	 --Array Value
+0007 	 : 	162d; 	 --Array Value
+0008 	 : 	2347; 	 --Array Value
+0009 	 : 	3367; 	 --Array Value
+000a 	 : 	19b6; 	 --Array Value
+000b 	 : 	162d; 	 --Array Value
+000c 	 : 	28d7; 	 --Array Value
+000d 	 : 	38f7; 	 --Array Value
+000e 	 : 	1937; 	 --Array Value
+000f 	 : 	162d; 	 --Array Value
+0010 	 : 	20c2; 	 --Array Value
+0011 	 : 	30e2; 	 --Array Value
+0012 	 : 	1839; 	 --Array Value
+0013 	 : 	162d; 	 --Array Value
+0014 	 : 	2245; 	 --Array Value
+0015 	 : 	3265; 	 --Array Value
+0016 	 : 	18b2; 	 --Array Value
+0017 	 : 	162d; 	 --Array Value
+0018 	 : 	2347; 	 --Array Value
+0019 	 : 	3367; 	 --Array Value
+001a 	 : 	19b6; 	 --Array Value
+001b 	 : 	162d; 	 --Array Value
+001c 	 : 	28d7; 	 --Array Value
+001d 	 : 	38f7; 	 --Array Value
+001e 	 : 	1937; 	 --Array Value
+001f 	 : 	162d; 	 --Array Value
+0020 	 : 	20c2; 	 --Array Value
+0021 	 : 	30e2; 	 --Array Value
+0022 	 : 	1839; 	 --Array Value
+0023 	 : 	162d; 	 --Array Value
+0024 	 : 	2245; 	 --Array Value
+0025 	 : 	3265; 	 --Array Value
+0026 	 : 	18b2; 	 --Array Value
+0027 	 : 	162d; 	 --Array Value
+0028 	 : 	2347; 	 --Array Value
+0029 	 : 	3367; 	 --Array Value
+002a 	 : 	19b6; 	 --Array Value
+002b 	 : 	162d; 	 --Array Value
+002c 	 : 	28d7; 	 --Array Value
+002d 	 : 	38f7; 	 --Array Value
+002e 	 : 	1937; 	 --Array Value
+002f 	 : 	162d; 	 --Array Value
+0030 	 : 	20c2; 	 --Array Value
+0031 	 : 	30e2; 	 --Array Value
+0032 	 : 	1839; 	 --Array Value
+0033 	 : 	162d; 	 --Array Value
+0034 	 : 	2245; 	 --Array Value
+0035 	 : 	3265; 	 --Array Value
+0036 	 : 	18b2; 	 --Array Value
+0037 	 : 	162d; 	 --Array Value
+0038 	 : 	2347; 	 --Array Value
+0039 	 : 	3367; 	 --Array Value
+003a 	 : 	19b6; 	 --Array Value
+003b 	 : 	162d; 	 --Array Value
+003c 	 : 	28d7; 	 --Array Value
+003d 	 : 	38f7; 	 --Array Value
+003e 	 : 	1937; 	 --Array Value
+003f 	 : 	162d; 	 --Array Value
+0040 	 : 	20c2; 	 --Array Value
+0041 	 : 	30e2; 	 --Array Value
+0042 	 : 	1839; 	 --Array Value
+0043 	 : 	162d; 	 --Array Value
+0044 	 : 	2245; 	 --Array Value
+0045 	 : 	3265; 	 --Array Value
+0046 	 : 	18b2; 	 --Array Value
+0047 	 : 	162d; 	 --Array Value
+0048 	 : 	2347; 	 --Array Value
+0049 	 : 	3367; 	 --Array Value
+004a 	 : 	19b6; 	 --Array Value
+004b 	 : 	162d; 	 --Array Value
+004c 	 : 	28d7; 	 --Array Value
+004d 	 : 	38f7; 	 --Array Value
+004e 	 : 	1937; 	 --Array Value
+004f 	 : 	162d; 	 --Array Value
+0050 	 : 	20c2; 	 --Array Value
+0051 	 : 	30e2; 	 --Array Value
+0052 	 : 	1839; 	 --Array Value
+0053 	 : 	162d; 	 --Array Value
+0054 	 : 	2245; 	 --Array Value
+0055 	 : 	3265; 	 --Array Value
+0056 	 : 	18b2; 	 --Array Value
+0057 	 : 	162d; 	 --Array Value
+0058 	 : 	2347; 	 --Array Value
+0059 	 : 	3367; 	 --Array Value
+005a 	 : 	19b6; 	 --Array Value
+005b 	 : 	162d; 	 --Array Value
+005c 	 : 	28d7; 	 --Array Value
+005d 	 : 	38f7; 	 --Array Value
+005e 	 : 	1937; 	 --Array Value
+005f 	 : 	162d; 	 --Array Value
+0060 	 : 	20c2; 	 --Array Value
+0061 	 : 	30e2; 	 --Array Value
+0062 	 : 	1839; 	 --Array Value
+0063 	 : 	162d; 	 --Array Value
+0064 	 : 	2245; 	 --Array Value
+0065 	 : 	3265; 	 --Array Value
+0066 	 : 	18b2; 	 --Array Value
+0067 	 : 	162d; 	 --Array Value
+0068 	 : 	2347; 	 --Array Value
+0069 	 : 	3367; 	 --Array Value
+006a 	 : 	19b6; 	 --Array Value
+006b 	 : 	162d; 	 --Array Value
+006c 	 : 	28d7; 	 --Array Value
+006d 	 : 	38f7; 	 --Array Value
+006e 	 : 	1937; 	 --Array Value
+006f 	 : 	162d; 	 --Array Value
+0070 	 : 	20c2; 	 --Array Value
+0071 	 : 	30e2; 	 --Array Value
+0072 	 : 	1839; 	 --Array Value
+0073 	 : 	162d; 	 --Array Value
+0074 	 : 	2245; 	 --Array Value
+0075 	 : 	3265; 	 --Array Value
+0076 	 : 	18b2; 	 --Array Value
+0077 	 : 	162d; 	 --Array Value
+0078 	 : 	2347; 	 --Array Value
+0079 	 : 	3367; 	 --Array Value
+007a 	 : 	19b6; 	 --Array Value
+007b 	 : 	162d; 	 --Array Value
+007c 	 : 	28d7; 	 --Array Value
+007d 	 : 	38f7; 	 --Array Value
+007e 	 : 	1937; 	 --Array Value
+007f 	 : 	162d; 	 --Array Value
+0080 	 : 	20c2; 	 --Array Value
+0081 	 : 	30e2; 	 --Array Value
+0082 	 : 	1839; 	 --Array Value
+0083 	 : 	162d; 	 --Array Value
+0084 	 : 	2245; 	 --Array Value
+0085 	 : 	3265; 	 --Array Value
+0086 	 : 	18b2; 	 --Array Value
+0087 	 : 	162d; 	 --Array Value
+0088 	 : 	2347; 	 --Array Value
+0089 	 : 	3367; 	 --Array Value
+008a 	 : 	19b6; 	 --Array Value
+008b 	 : 	162d; 	 --Array Value
+008c 	 : 	28d7; 	 --Array Value
+008d 	 : 	38f7; 	 --Array Value
+008e 	 : 	1937; 	 --Array Value
+008f 	 : 	162d; 	 --Array Value
+0090 	 : 	20c2; 	 --Array Value
+0091 	 : 	30e2; 	 --Array Value
+0092 	 : 	1839; 	 --Array Value
+0093 	 : 	162d; 	 --Array Value
+0094 	 : 	2245; 	 --Array Value
+0095 	 : 	3265; 	 --Array Value
+0096 	 : 	18b2; 	 --Array Value
+0097 	 : 	162d; 	 --Array Value
+0098 	 : 	2347; 	 --Array Value
+0099 	 : 	3367; 	 --Array Value
+009a 	 : 	19b6; 	 --Array Value
+009b 	 : 	162d; 	 --Array Value
+009c 	 : 	28d7; 	 --Array Value
+009d 	 : 	38f7; 	 --Array Value
+009e 	 : 	1937; 	 --Array Value
+009f 	 : 	162d; 	 --Array Value
+00a0 	 : 	20c2; 	 --Array Value
+00a1 	 : 	30e2; 	 --Array Value
+00a2 	 : 	1839; 	 --Array Value
+00a3 	 : 	162d; 	 --Array Value
+00a4 	 : 	2245; 	 --Array Value
+00a5 	 : 	3265; 	 --Array Value
+00a6 	 : 	18b2; 	 --Array Value
+00a7 	 : 	162d; 	 --Array Value
+00a8 	 : 	2347; 	 --Array Value
+00a9 	 : 	3367; 	 --Array Value
+00aa 	 : 	19b6; 	 --Array Value
+00ab 	 : 	162d; 	 --Array Value
+00ac 	 : 	28d7; 	 --Array Value
+00ad 	 : 	38f7; 	 --Array Value
+00ae 	 : 	1937; 	 --Array Value
+00af 	 : 	162d; 	 --Array Value
+00b0 	 : 	20c2; 	 --Array Value
+00b1 	 : 	30e2; 	 --Array Value
+00b2 	 : 	1839; 	 --Array Value
+00b3 	 : 	162d; 	 --Array Value
+00b4 	 : 	2245; 	 --Array Value
+00b5 	 : 	3265; 	 --Array Value
+00b6 	 : 	18b2; 	 --Array Value
+00b7 	 : 	162d; 	 --Array Value
+00b8 	 : 	2347; 	 --Array Value
+00b9 	 : 	3367; 	 --Array Value
+00ba 	 : 	19b6; 	 --Array Value
+00bb 	 : 	162d; 	 --Array Value
+00bc 	 : 	28d7; 	 --Array Value
+00bd 	 : 	38f7; 	 --Array Value
+00be 	 : 	1937; 	 --Array Value
+00bf 	 : 	162d; 	 --Array Value
+00c0 	 : 	20c2; 	 --Array Value
+00c1 	 : 	30e2; 	 --Array Value
+00c2 	 : 	1839; 	 --Array Value
+00c3 	 : 	162d; 	 --Array Value
+00c4 	 : 	2245; 	 --Array Value
+00c5 	 : 	3265; 	 --Array Value
+00c6 	 : 	18b2; 	 --Array Value
+00c7 	 : 	162d; 	 --Array Value
+00c8 	 : 	2347; 	 --Array Value
+00c9 	 : 	3367; 	 --Array Value
+00ca 	 : 	19b6; 	 --Array Value
+00cb 	 : 	162d; 	 --Array Value
+00cc 	 : 	28d7; 	 --Array Value
+00cd 	 : 	38f7; 	 --Array Value
+00ce 	 : 	1937; 	 --Array Value
+00cf 	 : 	162d; 	 --Array Value
+00d0 	 : 	20c2; 	 --Array Value
+00d1 	 : 	30e2; 	 --Array Value
+00d2 	 : 	1839; 	 --Array Value
+00d3 	 : 	162d; 	 --Array Value
+00d4 	 : 	2245; 	 --Array Value
+00d5 	 : 	3265; 	 --Array Value
+00d6 	 : 	18b2; 	 --Array Value
+00d7 	 : 	162d; 	 --Array Value
+00d8 	 : 	2347; 	 --Array Value
+00d9 	 : 	3367; 	 --Array Value
+00da 	 : 	19b6; 	 --Array Value
+00db 	 : 	162d; 	 --Array Value
+00dc 	 : 	28d7; 	 --Array Value
+00dd 	 : 	38f7; 	 --Array Value
+00de 	 : 	1937; 	 --Array Value
+00df 	 : 	162d; 	 --Array Value
+00e0 	 : 	20c2; 	 --Array Value
+00e1 	 : 	30e2; 	 --Array Value
+00e2 	 : 	1839; 	 --Array Value
+00e3 	 : 	162d; 	 --Array Value
+00e4 	 : 	2245; 	 --Array Value
+00e5 	 : 	3265; 	 --Array Value
+00e6 	 : 	18b2; 	 --Array Value
+00e7 	 : 	162d; 	 --Array Value
+00e8 	 : 	2347; 	 --Array Value
+00e9 	 : 	3367; 	 --Array Value
+00ea 	 : 	19b6; 	 --Array Value
+00eb 	 : 	162d; 	 --Array Value
+00ec 	 : 	28d7; 	 --Array Value
+00ed 	 : 	38f7; 	 --Array Value
+00ee 	 : 	1937; 	 --Array Value
+00ef 	 : 	162d; 	 --Array Value
+00f0 	 : 	20c2; 	 --Array Value
+00f1 	 : 	30e2; 	 --Array Value
+00f2 	 : 	1839; 	 --Array Value
+00f3 	 : 	162d; 	 --Array Value
+00f4 	 : 	2245; 	 --Array Value
+00f5 	 : 	3265; 	 --Array Value
+00f6 	 : 	18b2; 	 --Array Value
+00f7 	 : 	162d; 	 --Array Value
+00f8 	 : 	2347; 	 --Array Value
+00f9 	 : 	3367; 	 --Array Value
+00fa 	 : 	19b6; 	 --Array Value
+00fb 	 : 	162d; 	 --Array Value
+00fc 	 : 	28d7; 	 --Array Value
+00fd 	 : 	38f7; 	 --Array Value
+00fe 	 : 	1937; 	 --Array Value
+00ff 	 : 	162d; 	 --Array Value
+0100 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0101 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0102 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0103 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0104 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0105 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0106 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0107 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0108 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0109 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+010a 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+010b 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+010c 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+010d 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+010e 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+010f 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0110 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0111 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0112 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0113 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0114 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0115 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0116 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0117 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0118 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0119 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+011a 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+011b 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+011c 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+011d 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+011e 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+011f 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0120 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0121 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0122 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0123 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0124 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0125 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0126 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0127 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0128 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0129 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+012a 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+012b 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+012c 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+012d 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+012e 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+012f 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0130 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0131 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0132 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0133 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0134 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0135 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0136 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0137 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0138 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0139 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+013a 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+013b 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+013c 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+013d 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+013e 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+013f 	 : 	0000; 	 --.bss uppers 64 ; allocate 64 words for the vector with Upper elements
+0140 	 : 	0000; 	 --.bss lowers 64 ;
+0141 	 : 	0000; 	 --.bss lowers 64 ;
+0142 	 : 	0000; 	 --.bss lowers 64 ;
+0143 	 : 	0000; 	 --.bss lowers 64 ;
+0144 	 : 	0000; 	 --.bss lowers 64 ;
+0145 	 : 	0000; 	 --.bss lowers 64 ;
+0146 	 : 	0000; 	 --.bss lowers 64 ;
+0147 	 : 	0000; 	 --.bss lowers 64 ;
+0148 	 : 	0000; 	 --.bss lowers 64 ;
+0149 	 : 	0000; 	 --.bss lowers 64 ;
+014a 	 : 	0000; 	 --.bss lowers 64 ;
+014b 	 : 	0000; 	 --.bss lowers 64 ;
+014c 	 : 	0000; 	 --.bss lowers 64 ;
+014d 	 : 	0000; 	 --.bss lowers 64 ;
+014e 	 : 	0000; 	 --.bss lowers 64 ;
+014f 	 : 	0000; 	 --.bss lowers 64 ;
+0150 	 : 	0000; 	 --.bss lowers 64 ;
+0151 	 : 	0000; 	 --.bss lowers 64 ;
+0152 	 : 	0000; 	 --.bss lowers 64 ;
+0153 	 : 	0000; 	 --.bss lowers 64 ;
+0154 	 : 	0000; 	 --.bss lowers 64 ;
+0155 	 : 	0000; 	 --.bss lowers 64 ;
+0156 	 : 	0000; 	 --.bss lowers 64 ;
+0157 	 : 	0000; 	 --.bss lowers 64 ;
+0158 	 : 	0000; 	 --.bss lowers 64 ;
+0159 	 : 	0000; 	 --.bss lowers 64 ;
+015a 	 : 	0000; 	 --.bss lowers 64 ;
+015b 	 : 	0000; 	 --.bss lowers 64 ;
+015c 	 : 	0000; 	 --.bss lowers 64 ;
+015d 	 : 	0000; 	 --.bss lowers 64 ;
+015e 	 : 	0000; 	 --.bss lowers 64 ;
+015f 	 : 	0000; 	 --.bss lowers 64 ;
+0160 	 : 	0000; 	 --.bss lowers 64 ;
+0161 	 : 	0000; 	 --.bss lowers 64 ;
+0162 	 : 	0000; 	 --.bss lowers 64 ;
+0163 	 : 	0000; 	 --.bss lowers 64 ;
+0164 	 : 	0000; 	 --.bss lowers 64 ;
+0165 	 : 	0000; 	 --.bss lowers 64 ;
+0166 	 : 	0000; 	 --.bss lowers 64 ;
+0167 	 : 	0000; 	 --.bss lowers 64 ;
+0168 	 : 	0000; 	 --.bss lowers 64 ;
+0169 	 : 	0000; 	 --.bss lowers 64 ;
+016a 	 : 	0000; 	 --.bss lowers 64 ;
+016b 	 : 	0000; 	 --.bss lowers 64 ;
+016c 	 : 	0000; 	 --.bss lowers 64 ;
+016d 	 : 	0000; 	 --.bss lowers 64 ;
+016e 	 : 	0000; 	 --.bss lowers 64 ;
+016f 	 : 	0000; 	 --.bss lowers 64 ;
+0170 	 : 	0000; 	 --.bss lowers 64 ;
+0171 	 : 	0000; 	 --.bss lowers 64 ;
+0172 	 : 	0000; 	 --.bss lowers 64 ;
+0173 	 : 	0000; 	 --.bss lowers 64 ;
+0174 	 : 	0000; 	 --.bss lowers 64 ;
+0175 	 : 	0000; 	 --.bss lowers 64 ;
+0176 	 : 	0000; 	 --.bss lowers 64 ;
+0177 	 : 	0000; 	 --.bss lowers 64 ;
+0178 	 : 	0000; 	 --.bss lowers 64 ;
+0179 	 : 	0000; 	 --.bss lowers 64 ;
+017a 	 : 	0000; 	 --.bss lowers 64 ;
+017b 	 : 	0000; 	 --.bss lowers 64 ;
+017c 	 : 	0000; 	 --.bss lowers 64 ;
+017d 	 : 	0000; 	 --.bss lowers 64 ;
+017e 	 : 	0000; 	 --.bss lowers 64 ;
+017f 	 : 	0000; 	 --.bss lowers 64 ;
+0180 	 : 	0000; 	 --.bss numbers 64 ;
+0181 	 : 	0000; 	 --.bss numbers 64 ;
+0182 	 : 	0000; 	 --.bss numbers 64 ;
+0183 	 : 	0000; 	 --.bss numbers 64 ;
+0184 	 : 	0000; 	 --.bss numbers 64 ;
+0185 	 : 	0000; 	 --.bss numbers 64 ;
+0186 	 : 	0000; 	 --.bss numbers 64 ;
+0187 	 : 	0000; 	 --.bss numbers 64 ;
+0188 	 : 	0000; 	 --.bss numbers 64 ;
+0189 	 : 	0000; 	 --.bss numbers 64 ;
+018a 	 : 	0000; 	 --.bss numbers 64 ;
+018b 	 : 	0000; 	 --.bss numbers 64 ;
+018c 	 : 	0000; 	 --.bss numbers 64 ;
+018d 	 : 	0000; 	 --.bss numbers 64 ;
+018e 	 : 	0000; 	 --.bss numbers 64 ;
+018f 	 : 	0000; 	 --.bss numbers 64 ;
+0190 	 : 	0000; 	 --.bss numbers 64 ;
+0191 	 : 	0000; 	 --.bss numbers 64 ;
+0192 	 : 	0000; 	 --.bss numbers 64 ;
+0193 	 : 	0000; 	 --.bss numbers 64 ;
+0194 	 : 	0000; 	 --.bss numbers 64 ;
+0195 	 : 	0000; 	 --.bss numbers 64 ;
+0196 	 : 	0000; 	 --.bss numbers 64 ;
+0197 	 : 	0000; 	 --.bss numbers 64 ;
+0198 	 : 	0000; 	 --.bss numbers 64 ;
+0199 	 : 	0000; 	 --.bss numbers 64 ;
+019a 	 : 	0000; 	 --.bss numbers 64 ;
+019b 	 : 	0000; 	 --.bss numbers 64 ;
+019c 	 : 	0000; 	 --.bss numbers 64 ;
+019d 	 : 	0000; 	 --.bss numbers 64 ;
+019e 	 : 	0000; 	 --.bss numbers 64 ;
+019f 	 : 	0000; 	 --.bss numbers 64 ;
+01a0 	 : 	0000; 	 --.bss numbers 64 ;
+01a1 	 : 	0000; 	 --.bss numbers 64 ;
+01a2 	 : 	0000; 	 --.bss numbers 64 ;
+01a3 	 : 	0000; 	 --.bss numbers 64 ;
+01a4 	 : 	0000; 	 --.bss numbers 64 ;
+01a5 	 : 	0000; 	 --.bss numbers 64 ;
+01a6 	 : 	0000; 	 --.bss numbers 64 ;
+01a7 	 : 	0000; 	 --.bss numbers 64 ;
+01a8 	 : 	0000; 	 --.bss numbers 64 ;
+01a9 	 : 	0000; 	 --.bss numbers 64 ;
+01aa 	 : 	0000; 	 --.bss numbers 64 ;
+01ab 	 : 	0000; 	 --.bss numbers 64 ;
+01ac 	 : 	0000; 	 --.bss numbers 64 ;
+01ad 	 : 	0000; 	 --.bss numbers 64 ;
+01ae 	 : 	0000; 	 --.bss numbers 64 ;
+01af 	 : 	0000; 	 --.bss numbers 64 ;
+01b0 	 : 	0000; 	 --.bss numbers 64 ;
+01b1 	 : 	0000; 	 --.bss numbers 64 ;
+01b2 	 : 	0000; 	 --.bss numbers 64 ;
+01b3 	 : 	0000; 	 --.bss numbers 64 ;
+01b4 	 : 	0000; 	 --.bss numbers 64 ;
+01b5 	 : 	0000; 	 --.bss numbers 64 ;
+01b6 	 : 	0000; 	 --.bss numbers 64 ;
+01b7 	 : 	0000; 	 --.bss numbers 64 ;
+01b8 	 : 	0000; 	 --.bss numbers 64 ;
+01b9 	 : 	0000; 	 --.bss numbers 64 ;
+01ba 	 : 	0000; 	 --.bss numbers 64 ;
+01bb 	 : 	0000; 	 --.bss numbers 64 ;
+01bc 	 : 	0000; 	 --.bss numbers 64 ;
+01bd 	 : 	0000; 	 --.bss numbers 64 ;
+01be 	 : 	0000; 	 --.bss numbers 64 ;
+01bf 	 : 	0000; 	 --.bss numbers 64 ;
+01c0 	 : 	003f; 	 --.cte stopVal 63 ; 256 elements / 4 elements per cycle = 64 times
+01c1 	 : 	0000; 	 --.cte zero 0
+01c2 	 : 	1020; 	 --.cte simdVal 0x1020 ; MSB 7 Bits = 0x20 - LSB 7 Bits = 0x20
+01c3 	 : 	1830; 	 --.cte simdValCte 0x1830 ; MSB 7 Bits = 0x30 - LSB 7 Bits = 0x30
+END;

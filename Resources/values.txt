@@ -1,0 +1,160 @@
+01234567890123
+
+11111111111111 
+00000000000000
+10101010101010
+ZZZZZZZZZZZZZZ
+00000000000001
+
+01010101010101
+10101010101010
+
+
+-- RegisterFile Initial Sets
+force -freeze sim:/mmb_registerfile/clk 1 0, 0 {10000 ps} -r {20 ns}
+force -freeze sim:/mmb_registerfile/rst 1 0
+force -freeze sim:/mmb_registerfile/regSelA 0000000000000000 0
+force -freeze sim:/mmb_registerfile/regSelB 0000000000000000 0
+force -freeze sim:/mmb_registerfile/regSelOut_A 0000 0
+force -freeze sim:/mmb_registerfile/regSelOut_B 0000 0
+force -freeze sim:/mmb_registerfile/regSelOut_C 0000 0
+force -freeze sim:/mmb_registerfile/triSel 000 0
+
+
+-- RF Testing
+restart
+force -freeze sim:/mmb_registerfile/clk 1 0, 0 {10000 ps} -r {20 ns}
+force -freeze sim:/mmb_registerfile/rst 1 0
+force -freeze sim:/mmb_registerfile/regSelA 0000000000000000 0
+force -freeze sim:/mmb_registerfile/regSelB 0000000000000000 0
+force -freeze sim:/mmb_registerfile/regSelOut_A 0000 0
+force -freeze sim:/mmb_registerfile/regSelOut_B 0000 0
+force -freeze sim:/mmb_registerfile/regSelOut_C 0000 0
+force -freeze sim:/mmb_registerfile/triSel 000 0
+run
+force -freeze sim:/mmb_registerfile/rst 0 0
+force -freeze sim:/mmb_registerfile/triSel 100 0
+force -freeze sim:/mmb_registerfile/regSelOut_C 0001 0
+run
+force -freeze sim:/mmb_registerfile/A_bus 10101010101010 0
+force -freeze sim:/mmb_registerfile/regSelB 0000000000000010 0
+run
+run
+noforce sim:/mmb_registerfile/C_bus
+noforce sim:/mmb_registerfile/A_bus
+force -freeze sim:/mmb_registerfile/regSelA 1000000000000000 0
+force -freeze sim:/mmb_registerfile/regSelB 1000000000000000 0
+run
+force -freeze sim:/mmb_registerfile/regSelA 0000000000000000 0
+force -freeze sim:/mmb_registerfile/regSelB 0000000000000000 0
+force -freeze sim:/mmb_registerfile/regSelOut_B 1111 0
+noforce sim:/mmb_registerfile/triSel
+force -freeze sim:/mmb_registerfile/triSel 010 0
+force -freeze sim:/mmb_registerfile/regSelOut_C 0000 0
+run
+force -freeze sim:/mmb_registerfile/regSelOut_A 1111 0
+force -freeze sim:/mmb_registerfile/regSelOut_B 0001 0
+force -freeze sim:/mmb_registerfile/triSel 111 0
+run
+force -freeze sim:/mmb_registerfile/regSelOut_A 0111 0
+run
+
+
+
+-- ALU Initial Sets
+force -freeze sim:/mmb_functionalunit/clk 0 0, 1 {10000 ps} -r {20 ns}
+force -freeze sim:/mmb_functionalunit/rst 1 0
+force -freeze sim:/mmb_functionalunit/muxSelTA 00 0
+force -freeze sim:/mmb_functionalunit/muxSelTB 00 0
+force -freeze sim:/mmb_functionalunit/ctGenSel 0000 0
+force -freeze sim:/mmb_functionalunit/aluExec 0 0
+force -freeze sim:/mmb_functionalunit/opSel 000000 0
+force -freeze sim:/mmb_functionalunit/outSelTALU 000 0
+force -freeze sim:/mmb_functionalunit/outSelTR 000 0
+force -freeze sim:/mmb_functionalunit/outSelTSR 000 0
+force -freeze sim:/mmb_functionalunit/A_bus 00000000000000 0
+force -freeze sim:/mmb_functionalunit/B_bus 00000000000000 0
+force -freeze sim:/mmb_functionalunit/C_bus 00000000000000 0
+
+
+
+-- ALU Testin
+force -freeze sim:/mmb_functionalunit/clk 0 0, 1 {10000 ps} -r {20 ns}
+force -freeze sim:/mmb_functionalunit/rst 1 0
+force -freeze sim:/mmb_functionalunit/muxSelTA 00 0
+force -freeze sim:/mmb_functionalunit/muxSelTB 00 0
+force -freeze sim:/mmb_functionalunit/ctGenSel 00 0
+force -freeze sim:/mmb_functionalunit/aluExec 0 0
+force -freeze sim:/mmb_functionalunit/opSel 00000 0
+force -freeze sim:/mmb_functionalunit/outSelTALU 000 0
+force -freeze sim:/mmb_functionalunit/outSelTR 000 0
+force -freeze sim:/mmb_functionalunit/outSelTSR 000 0
+force -freeze sim:/mmb_functionalunit/A_bus 01010101010101 0
+force -freeze sim:/mmb_functionalunit/B_bus 10101010101010 0
+force -freeze sim:/mmb_functionalunit/C_bus 00000000000000 0
+
+
+
+-- Mem Unit Initial Sets
+noforce sim:/mmb_mem_unit/A_bus
+noforce sim:/mmb_mem_unit/B_bus
+noforce sim:/mmb_mem_unit/C_bus
+force -freeze sim:/mmb_mem_unit/clk 0 0, 1 {10000 ps} -r {20 ns}
+force -freeze sim:/mmb_mem_unit/rst 1 0
+force -freeze sim:/mmb_mem_unit/pmRdEn 0 0
+force -freeze sim:/mmb_mem_unit/incPc 0 0
+force -freeze sim:/mmb_mem_unit/ldPc 0 0
+force -freeze sim:/mmb_mem_unit/dmWRen 0 0
+force -freeze sim:/mmb_mem_unit/dmOutBusSel 000 0
+force -freeze sim:/mmb_mem_unit/SP 00000000000000 0
+force -freeze sim:/mmb_mem_unit/muxDMin 00 0
+force -freeze sim:/mmb_mem_unit/muxMAXinpSel 00 0
+force -freeze sim:/mmb_mem_unit/muxDMAdrSel 0 0
+
+
+-- Program Counter Initial Sets
+force -freeze sim:/mmb_program_counter/clk 0 0, 1 {10000 ps} -r {20 ns}
+force -freeze sim:/mmb_program_counter/rst 1 0
+force -freeze sim:/mmb_program_counter/aEff 00000000000000 0
+force -freeze sim:/mmb_program_counter/incPc 0 0
+force -freeze sim:/mmb_program_counter/ldPc 0 0
+
+
+-- Control Unit Initial Sets
+force -freeze sim:/mmb_controlunit/clk 0 0, 1 {10000 ps} -r {20 ns}
+force -freeze sim:/mmb_controlunit/rst 1 0
+force -freeze sim:/mmb_controlunit/instrReg 00000000000000 0
+
+
+-- uProcessor Initial Sets
+
+force -freeze sim:/mmb_uprocessor/clk 1 0, 0 {10000 ps} -r {20 ns}
+force -freeze sim:/mmb_uprocessor/clk 0 0, 1 {10000 ps} -r {20 ns}
+force -freeze sim:/mmb_uprocessor/rst 1 0
+force -freeze sim:/mmb_uprocessor/registerFile/regs 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001 0
+
+-- uProgram Mem Test Sets
+force -freeze sim:/mmb_cu_rom_test/clk 1 0, 0 {10000 ps} -r {20 ns}
+force -freeze sim:/mmb_cu_rom_test/instrReg 00000000000000 0
+force -freeze sim:/mmb_cu_rom_test/rst 1 0
+
+
+
+
+-- ALU SIMD INITIAL SETS -- ADDV
+force -freeze sim:/mmb_fu_alu/opSel 011000 0
+force -freeze sim:/mmb_fu_alu/clk 1 0, 0 {10000 ps} -r {20 ns}
+force -freeze sim:/mmb_fu_alu/rst 1 0
+force -freeze sim:/mmb_fu_alu/aluExec 1 0
+force -freeze sim:/mmb_fu_alu/inpA 01111110000001 0
+force -freeze sim:/mmb_fu_alu/inpB 00000010000001 0
+
+
+-- I/O-P INITIAL SETS
+force -freeze sim:/mmb_iop_unit/clk 1 0, 0 {10000 ps} -r {20 ns}
+force -freeze sim:/mmb_iop_unit/rst 1 0
+force -freeze sim:/mmb_iop_unit/addr 0000 0
+force -freeze sim:/mmb_iop_unit/wen 1 0
+force -freeze sim:/mmb_iop_unit/ren 1 0
+force -freeze sim:/mmb_iop_unit/outBusSel 00 0
+force -freeze sim:/mmb_iop_unit/inBusSel 000 0

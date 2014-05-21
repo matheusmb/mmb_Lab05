@@ -1,0 +1,38 @@
+-- Memory File
+
+WIDTH = 14;
+DEPTH = 16383;
+
+ADDRESS_RADIX = HEX;
+DATA_RADIX = HEX;
+
+CONTENT BEGIN
+0000 	 : 	2bc0; 	 --ld R15, M[R0, stopVal] ; R15 is used for loop control
+0001 	 : 	01c0; 	 --Generated Instruction Word 1
+0002 	 : 	2880; 	 --hwNine : ld 		R2, M[R0, elements] ; ld R2 with the first element of the vector
+0003 	 : 	0000; 	 --Generated Instruction Word 1
+0004 	 : 	2885; 	 --st 		R2, M[R1, uppers] ; R1 is used as index of uppers, lowers and numbers vectors
+0005 	 : 	0100; 	 --Generated Instruction Word 1
+0006 	 : 	0006; 	 --addc	R0, #0x1		 ; R0 is used as index of elements vector
+0007 	 : 	2880; 	 --ld		R2, M[R0, elements]
+0008 	 : 	0000; 	 --Generated Instruction Word 1
+0009 	 : 	2885; 	 --st		R2, M[R1, lowers]
+000a 	 : 	0140; 	 --Generated Instruction Word 1
+000b 	 : 	0006; 	 --addc	R0, #0x1
+000c 	 : 	2880; 	 --ld		R2, M[R0, elements]
+000d 	 : 	0000; 	 --Generated Instruction Word 1
+000e 	 : 	2885; 	 --st		R2, M[R1, numbers]
+000f 	 : 	0180; 	 --Generated Instruction Word 1
+0010 	 : 	0006; 	 --addc	R0, #0x1
+0011 	 : 	0006; 	 --addc	R0, #0x1
+0012 	 : 	0046; 	 --addc	R1, #0x1
+0013 	 : 	2f84; 	 --cpy		R14, R1
+0014 	 : 	0bbf; 	 --xor 	R14, R15 ; R14 == R15?
+0015 	 : 	3040; 	 --jz		exit
+0016 	 : 	0019; 	 --Generated Instruction Word 1
+0017 	 : 	2000; 	 --jmp		hwNine
+0018 	 : 	0002; 	 --Generated Instruction Word 1
+0019 	 : 	0000; 	 --exit : or r1, r1 ; nop emulated as 'or r1, r1'
+001a 	 : 	2000; 	 --jmp exit
+001b 	 : 	0019; 	 --Generated Instruction Word 1
+END;
